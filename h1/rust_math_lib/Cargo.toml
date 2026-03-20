@@ -1,0 +1,11 @@
+[package]
+name = "lab9-rust-math-lib"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "lab9_rust_math_lib"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.23.0", features = ["extension-module"] }
