@@ -36,4 +36,4 @@ jobs:
     - name: Build and publish to PyPI
       env:
         MATURIN_PYPI_TOKEN: ${{ secrets.PYPI_API_TOKEN }}
-      run: maturin publish --username __token__ --password $MATURIN_PYPI_TOKEN --timeout 120
+      run: maturin publish --username __token__ --password $MATURIN_PYPI_TOKEN
