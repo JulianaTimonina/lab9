@@ -1,0 +1,12 @@
+# Core dependencies
+requests>=2.31.0
+numpy>=1.26.0
+
+# Build dependencies
+maturin>=1.7.0
+setuptools>=69.0.0
+wheel>=0.42.0
+pip>=24.0
+
+# Optional for visualization
+matplotlib>=3.9.0
